@@ -1,25 +1,47 @@
+
+
+/* common styles */
+html{
+    font-size: 62.5%;
+}
+.heading{
+    color: white;
+}
+p{
+    color: #797979;
+    font-size: 2rem;
+}
+.orange-btn{
+    background-color: #E6533C;
+    padding: 1rem 5rem;
+    color: white;
+    border-radius: 3rem;
+    font-size: 2rem;
+    border: none;
+}
+/* end of common styles */
 body{
     background-color: black;
 }
 .navbar{
     width: 100%;
-    background: linear-gradient(180deg,#111111,#777777);
+    /* background: linear-gradient(180deg,#111111,#777777); */
 }
 .nav-menu{
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.heading{
+.logo{
     color: #E6533C;
 }
 .nav-item a{
     color: white;
 }
 .nav-banner{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -34,12 +56,12 @@ body{
 
 /* habit section starts */
 .habit{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
-.habit h2,h4,p{
-    color: white;
-    /* text-align: center; */
+.heading-1{
+    font-size: 3rem;
 }
 .habit-items{
     display: grid;
@@ -48,4 +70,39 @@ body{
 .habits-img{
     border-radius: 50%;
 }
+.first-habit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habit-text h2{
+    font-size: 3rem;
+}
 /* habit section ends */
+
+.extra-mile{
+    width: 80%;
+    margin: 10rem auto;
+    background-color: #222222;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+    
+}
+/* .extra-mile-text{
+    width: 50%;
+} */
+.extra-mile-text h3{
+    font-size: 5rem;
+}
+/* .extra-mile-img{
+    width: 50%;
+    height:60rem
+} */
+.extra-mile-img img{
+    width: 40rem;
+    height: 32rem;
+    border-radius: 3rem;
+}
