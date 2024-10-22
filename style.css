@@ -31,3 +31,21 @@ body{
     background-repeat: no-repeat;
     
 }
+
+/* habit section starts */
+.habit{
+    width: 90%;
+    margin: 0 auto;
+}
+.habit h2,h4,p{
+    color: white;
+    /* text-align: center; */
+}
+.habit-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.habits-img{
+    border-radius: 50%;
+}
+/* habit section ends */
