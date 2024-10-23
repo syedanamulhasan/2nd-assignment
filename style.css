@@ -1,8 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 
 /* common styles */
 html{
     font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: black;
 }
 .heading{
     color: white;
@@ -25,18 +32,21 @@ p{
     font-weight: bold;
 }
 /* end of common styles */
-body{
-    background-color: black;
-}
+
+/* nav section starts */
 .navbar{
     width: 100%;
-    /* background: linear-gradient(180deg,#111111,#777777); */
+    background-color: rgba(17, 17, 17, 100%);
 }
 .nav-text{
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 .nav-heading{
     font-size: 8rem;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 100;
 }
 .nav-menu{
     margin: 0 auto;
@@ -72,7 +82,7 @@ body{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    background-color: #222222;
+    /* background-color: #222222; */
     justify-content: space-around;
 }
 .nav-img{
@@ -83,8 +93,9 @@ body{
     align-items: flex-end;
     width: 40%;
     justify-content: center;
+    position: relative;
 }
-.nav-img-content{
+/* .nav-img-content{
     width: 100%;
     height: 100%;
     display: flex;
@@ -99,7 +110,7 @@ body{
 }
 .nav-img-content-video-tutorial{
     /* width: 100%; */
-}
+/* } */
 .download-btn{
     background: none;
     padding: 1rem 5rem;
@@ -109,31 +120,40 @@ body{
     border: 0.1rem solid #797979;   
 }
 .workout-videos h3,.video-tutorial-text h3{
-    font-size: 2.4rem;
-    font-weight: 900;
-}
+    font-size: 4rem;
+    font-weight: 700;
+} 
+.workout-videos p,.video-tutorial-text p{
+    font-size: 1.3rem;
+} 
 .video-tutorial{
-    width: 20rem;
+    /* width: 20rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
     gap: 1rem;
     border: 0.1rem solid #797979;
     border-radius: 2rem;
-    margin-top: 10rem;
-    background-color: rgba(48, 48, 48, 54%)
-}
+    background-color: rgba(48, 48, 48, 54%);
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
+
+} 
 .workout-videos{
-    width: 20rem;
+    /* width: 20rem; */
     border: 0.1rem solid #797979;
     border-radius: 2rem;
     padding: 0 2rem;
-    margin-bottom: 5rem;
-    background-color: rgba(255, 255, 255, 10%)
-    /* justify-content: flex-start; */
-    /* align-items: flex-end; */
+    /* margin-bottom: 5rem; */
+    background-color: rgba(255, 255, 255, 10%);
+    position: absolute;
+    top: 12rem;
+    right: -8rem;
 }
+
+/* nav section ends */
 /* habit section starts */
 .habit{
     width: 80%;
@@ -246,3 +266,53 @@ body{
     left: 2rem;
 }
 /* end of team section */
+
+/* footer */
+.footer-logo{
+    font-size: 7rem;
+    color: #E6533C;
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.footer-column-first{
+    grid-column: span 2;
+}
+.footer-column-second,.footer-column-third{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-column-second h2,.footer-column-third h2{
+    font-size: 3.2rem;
+    color: white;
+    font-weight: bold;
+}
+.footer-column-second a,.footer-column-third a{
+    font-size: 2.4rem;
+    color: #797979;
+    text-decoration: none;
+}
+
+.copyright{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+hr{
+    width: 100%;
+    /* color: rgba(255, 255, 255, 10%); */
+    border: 0.1rem solid rgba(255, 255, 255, 10%);
+}
+.copyright p{
+    text-align: centers;
+}
+/* end of footer */
