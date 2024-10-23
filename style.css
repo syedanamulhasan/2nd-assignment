@@ -132,6 +132,13 @@ h1,h2,h3,h4{
     bottom: 8rem;
     left: 15rem;
 } 
+.play-button{
+    position: relative;
+}
+.pause-button{
+    position: absolute;
+    visibility: hidden;
+}
 .workout-videos{
     /* width: 20rem; */
     border: 0.1rem solid #797979;
@@ -260,7 +267,7 @@ td{
 /* team section */
 .team{
     width: 80%;
-    margin: 10rem auto;
+    margin: 5rem auto;
 }
 .team-text{
     text-align: center;
@@ -320,6 +327,10 @@ td{
     left: 2rem;
 }
 /* end of team section */
+
+/* extra section */
+
+/* extra section ends */
 
 /* footer */
 .footer{

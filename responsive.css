@@ -40,6 +40,12 @@
         left: -8rem;
         padding: 1rem;
     } 
+    .pause-button{
+        position: absolute;
+        visibility: visible;
+        right: 0.9rem;
+        top: 1rem;
+    }
     .workout-videos{
         top: 2rem;
         right: -10rem;
@@ -137,6 +143,9 @@
         background-size: cover;
         background-position: center;
         position: relative;
+    }
+    .section-4{
+        flex-wrap: nowrap;
     }
     .footer{
         width: 100%;
