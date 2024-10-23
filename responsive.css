@@ -65,6 +65,7 @@
     .habit-items{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
         margin-top: 5rem;
     }
     .heading-1{
@@ -72,6 +73,7 @@
     }
     .habit-text h2{
         font-size: 2rem;
+        margin-top: 0.5rem;
     }
     .extra-mile{
         width: 80%;
@@ -142,13 +144,30 @@
         /* margin-top: 5rem; */
     }
     .footer-content{
-        /* width: 80%; */
+        width: 80%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: 1fr;
         padding: 5rem 0;
     }
     .footer-column-first{
         grid-column: span 2;
+        grid-area: 1;
+        
+    }
+    .footer-column-second{
+        grid-area: 2;
+        margin-bottom: 2rem;
+    }
+    .footer-column-second h2,.footer-column-third h2{
+        font-size: 2rem;
+    }
+    .footer-column-second a,.footer-column-third a{
+        font-size: 1.2rem;
+    }
+    .copyright p{
+        text-align: centers;
+        letter-spacing: 0.1rem;
+        font-size: 1.8rem;
     }
 }

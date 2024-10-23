@@ -171,6 +171,7 @@ h1,h2,h3,h4{
 }
 .habit-text h2{
     font-size: 3rem;
+    margin-top: 1rem;
 }
 /* habit section ends */
 /* extra-mile section starts */
