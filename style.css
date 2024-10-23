@@ -39,7 +39,7 @@ p{
     background-color: rgba(17, 17, 17, 100%);
 }
 .nav-text{
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 .nav-heading{
     font-size: 8rem;
@@ -87,6 +87,7 @@ p{
 }
 .nav-img{
     background-image: url(images/Images\ 2.png);
+    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
