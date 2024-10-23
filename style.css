@@ -51,6 +51,9 @@ h1,h2,h3,h4{
     align-items: center;
     padding-top: 5rem;
 }
+.menu-icon{
+    visibility: hidden;
+}
 .logo{
     color: #E6533C;
     font-size: 3.6rem;
@@ -96,10 +99,7 @@ h1,h2,h3,h4{
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-end;
     width: 40%;
-    justify-content: center;
     position: relative;
 }
 .download-btn{
@@ -131,7 +131,6 @@ h1,h2,h3,h4{
     position: absolute;
     bottom: 8rem;
     left: 15rem;
-
 } 
 .workout-videos{
     /* width: 20rem; */
@@ -183,8 +182,7 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 4rem 0;
-    
+    padding: 4rem 0;    
 }
 
 .extra-mile-text h3{
