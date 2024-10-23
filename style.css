@@ -19,6 +19,11 @@ p{
     font-size: 2rem;
     border: none;
 }
+.heading-1{
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+}
 /* end of common styles */
 body{
     background-color: black;
@@ -135,9 +140,7 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.heading-1{
-    font-size: 3rem;
-}
+
 .habit-items{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -181,3 +184,65 @@ body{
     height: 32rem;
     border-radius: 3rem;
 }
+/* team section */
+.team{
+    width: 80%;
+    margin: 5rem auto;
+}
+.team-text{
+    text-align: center;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+    background-color: rgba(255, 255, 255, 10%);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 5rem 0;
+
+}
+.Jerome-bell,.cameron-williamson,.darrel-steward,.dianne-russel,.cody-fisher,.theresa-web{
+   
+    background-repeat: no-repeat;
+    width: 45rem;
+    height: 45rem;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Jerome-bell{
+    background-image:url(images/trainer1.png);
+}
+.cameron-williamson{
+    background-image: url(images/trainer2.png);
+}
+.darrel-steward{
+    background-image: url(images/trainer3.png);
+}
+.dianne-russel{
+    background-image: url(images/trainer4.png);
+}
+.cody-fisher{
+    background-image: url(images/trainer5.png);
+}
+.theresa-web{
+    background-image: url(images/trainer6.png);
+}
+.team-members>div>h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5rem;
+    left: 2rem;
+}
+.team-members>div>p{
+    color: #797979;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+}
+/* end of team section */
