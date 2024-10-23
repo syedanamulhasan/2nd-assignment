@@ -329,7 +329,66 @@ td{
 /* end of team section */
 
 /* extra section */
+.sign-up {
+    width: 80%;
+    margin: 10rem auto;
+    display: flex;
+    gap: 5rem;
+}
 
+.sign-up-text {
+    width: 50%;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    border-radius: 1.6rem;
+    border: 1px solid #FF5400;
+   
+}
+
+.sign-up-text h3 {
+    color: #E6533C;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.sign-up-text p {
+    color: #5A5A5D;
+    font-size: 2rem;
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.sign-up-info {
+    width: 90%;
+    padding: 2rem;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 100%);
+    margin-top: 24px;
+}
+
+.sign-up-button {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.sign-up-button a {
+    
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.sign-up-img img{
+    border-radius: 2rem;
+}
 /* extra section ends */
 
 /* footer */

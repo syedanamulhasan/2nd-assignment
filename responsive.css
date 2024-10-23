@@ -144,8 +144,33 @@
         background-position: center;
         position: relative;
     }
-    .section-4{
-        flex-wrap: nowrap;
+    .sign-up{
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 10%);
+        border-radius: 2rem;
+        padding: 2rem 0;
+    }
+    .sign-up-text {
+        width: 80%;
+    }
+    .sign-up-button {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    
+    .sign-up-button a {
+        
+        color: #FFF;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .sign-up-img img{
+        width: 30rem;
+        height: 35rem;
     }
     .footer{
         width: 100%;
